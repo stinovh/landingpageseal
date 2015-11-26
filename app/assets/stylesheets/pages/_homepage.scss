@@ -1,0 +1,101 @@
+.home-bg {
+  background-image: url("computer-desk-top-view-best-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first-slide {
+  height: 600px;
+  color: white;
+  text-align: center;
+  .first-slide-text {
+    margin-top: 132px;
+    @media (max-width: 641px) {
+        margin-top: 80px;
+      }
+    h1 {
+      font-weight: 300;
+      font-size: 60px;
+    }
+    .btn {
+      font-weight: 300;
+      margin-top: 30px;
+      padding: 13px 50px;
+      font-size: 20px;
+    }
+    #find-jobs {
+      margin-right: 50px;
+      @media (max-width: 465px) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.transparent{
+  background: rgba(1, 1, 1, 0.5);
+}
+
+#sign-up-btn {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 6px;
+  border: none;
+  border-radius: 5px;
+  &:hover, &:focus, &:active {
+    background-color: #469AE0;
+  }
+}
+
+#login-btn {
+  &:hover, &:focus, &:active, &:visited {
+    background: none;
+  }
+}
+
+.light-menu {
+  background-color: rgba(1,1,1,0.25);
+  border-radius: 5px;
+  width: 92px;
+  min-width: 0;
+}
+
+#user-home-link {
+  padding-left: 28px;
+  &:hover {
+    background-color: rgba(1,1,1,0.15);
+  }
+}
+
+#company-home-link {
+  padding-left: 13px;
+  &:hover {
+    background-color: rgba(1,1,1,0.15);
+  }
+}
+
+.download-app {
+  margin-top: 196px;
+  @media (min-width: 431px) and (max-width: 570px) {
+    margin-top: 182px;
+  }
+  @media (max-width: 430px) {
+    margin-top: 41px;
+    #ios {
+      width: 100px;
+    }
+    #android {
+      width: 100px;
+    }
+    #dl-app {
+      display: none;
+    }
+  }
+  #ios {
+    width: 130px;
+  }
+  #android {
+    width: 130px;
+  }
+}
+

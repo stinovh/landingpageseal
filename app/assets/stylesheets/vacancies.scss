@@ -1,0 +1,128 @@
+// Place all the styles related to the vacancies controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.show-all-vac {
+  height: 500px;
+}
+
+.vacancies-ul {
+  list-style-type: none;
+}
+
+.vacancies-li {
+  position: absolute;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #DFDFDF;
+  height: 440px;
+  width: 81%;
+
+}
+
+.vacancy-card-header {
+  background: #25374B;
+  height: 60px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+#vacancy-name {
+  color: white;
+  padding-top: 17px;
+  padding-left: 20px;
+}
+
+.vacancy-card-inside {
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 5%;
+}
+
+.btn-skip {
+  color: #ffffff;
+  background-color: #D6D6D6;
+  height: 60px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: right;
+  padding-top: 3%;
+  font-size: small;
+  padding-right: 5%;
+}
+
+.btn-apply {
+  color: #ffffff;
+  background-color: #60AAE9;
+  height: 60px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  padding-top: 3%;
+  font-size: small;
+  padding-left: 5%;
+}
+
+.btn-apply:link {
+  text-decoration: none;
+}
+
+::selection {
+  background-color: pink;
+}
+
+#vacancy-type {
+  color: gray;
+}
+
+#vacancy-date {
+  color: gray;
+}
+
+#vacancy-text {
+  color: lightgray;
+  font-size: smaller;
+}
+
+#vacancy-detail-box {
+  box-shadow: 1.5px 1.5px 1px 0px #e6e6e6;
+  background-color: #F3F3F3;
+  border-radius: 2%;
+  padding: 5%;
+  margin-bottom: 22%;
+  width: 73%;
+  margin-left: 20%;
+}
+
+#vacancy-detail-box-hr {
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+.vacancy-detail-box-items {
+  font-size: 11px;
+  margin-left: 10%;
+  color: #777777;
+}
+
+#vacancy-detail-box-wage {
+  float: right;
+  color: #777777;
+  margin-right: 6%;
+}
+
+.skip-or-apply-row > div:nth-child(1) > a {
+  text-decoration: none;
+}
+
+.skip-or-apply-row > div:nth-child(3) > a {
+  text-decoration: none;
+}
+
+#apply > a {
+  text-decoration: none;
+  color: white;
+
+}
+
+
+

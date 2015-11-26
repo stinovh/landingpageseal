@@ -1,0 +1,18 @@
+// Graphical variables
+@import "config/variables";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS
+@import "employees";
+@import "matching";
+@import "pages/index";
+@import "vacancies";
+@import "recruiters";
+@import "navbar";
+

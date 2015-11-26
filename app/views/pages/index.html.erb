@@ -1,0 +1,208 @@
+<div class="home-bg">
+  <div class="transparent">
+    <nav class="navbar navbar-default" id="homepage-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="/" class="pull-left"><%= image_tag "header-logo.png", id: "seal-logo" %></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">How it works</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">News</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div><!--/.container-fluid -->
+    </nav>
+    <div class="container first-slide">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="first-slide-text">
+            <h1>Looking to work or hire?</h1>
+            <p>Now you can find the perfect job, or hire the best out there. Seal makes it easy.</p>
+            <%= link_to "Find Jobs", "#", class: "btn btn-default", id: "find-jobs"%> <%= link_to "Post a job", "#", class: "btn btn-default"%>
+          </div>
+          <div class="download-app">
+            <span id="dl-app">Download the App:</span> <%= image_tag "ios.png", id: "ios" %> <%= image_tag "Android.png", id: "android" %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- explain features -->
+<div class="homepage-two text-center">
+  <div class="container">
+    <div class="row explain-features">
+      <div class="col-xs-12 col-md-4">
+        <div class="circle-img">
+          <%= image_tag "matching-homepage1.png" %>
+          <h2>Matching</h2>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <%= image_tag "headhunting-homepage1.png" %>
+        <h2>Headhunting</h2>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <%= image_tag "hotrightnow.png" %>
+        <h2>Hot Right Now</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-6 tabs-users">
+        <a data-toggle="tab" href="#first" class="active blue-one" id="first-one">LOOKING FOR A JOB</a>
+        <a data-toggle="tab" href="#second" class="grey-one" id="second-one">LOOKING TO HIRE</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- steps how it works -->
+
+<div class="tab-content">
+  <div id="first" class="tab-pane fade in active">
+    <div class="container step-one">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <%= image_tag "android-iphone.png", class: "dont-show" %>
+        </div>
+        <div class="col-xs-12 col-md-6 text-div">
+          <div class="info-text">
+            <h1>Step 1: Create a profile and enter your search criteria.</h1>
+          </div>
+          <br>
+          <p>
+            Enter both your profile and search criteria as carefully as possible so that we can find suitable jobs for you.
+          </p>
+          <%= link_to "#", class: "cta-btn-slide" do %>
+            Maak een profiel aan
+          <% end %>
+        </div>
+      </div>
+    </div>
+    <div class="step-two">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6 text-div">
+            <div class="info-text">
+              <h1>Step 2: Choose the vacancies that appeal to you and find a match.</h1>
+            </div>
+            <br>
+            <p>
+              Keur de vacatures goed die volledig je ding zijn en ontdek onmiddelijk of deze interesse ook wederzijds in. Een match kan ook na even wachten bekomen worden.
+            </p>
+            <%= link_to "#", class: "cta-btn-slide" do %>
+              Begin vacatures te bekijken
+            <% end %>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <%= image_tag "macbook.png", class: "dont-show" %>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container step-three">
+      <div class="row">
+        <div class="col-xs-12 col-md-6 img-div">
+          <%= image_tag "seal-the-deal-werknemer.png", class: "dont-show" %>
+        </div>
+        <div class="col-xs-12 col-md-6 text-div">
+          <div class="info-text">
+            <h1>Stap 3: Chat met je werkgever en Seal The Deal!</h1>
+          </div>
+          <br>
+          <p>
+            Maak kennis met je ‘mogelijk’ volgende
+            werknemer en kom zo te weten of dit de ideale job voor jou is.
+            Merk je dat dit wel echt iets voor jou is, duw dan op de ‘Seal The Deal’ button!
+          </p>
+          <%= link_to "#", class: "cta-btn-slide" do %>
+            Ga aan de slag!
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="second" class="tab-pane fade">
+    <div class="container step-one" id="step-one-company">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <%= image_tag "inschrijven-werkgever.png", class: "dont-show" %>
+        </div>
+        <div class="col-xs-12 col-md-6 text-div">
+          <div class="info-text">
+            <h1>Stap 1: Vul je bedrijfsprofiel in en maak een vacature aan.</h1>
+          </div>
+          <br>
+          <p>
+            Vul zowel je profiel en zoekcriteria zo zorgvuldig mogelijk in
+            zodat wij voor jou de geschikte jobs kunnen vinden.
+          </p>
+          <%= link_to "#", class: "cta-btn-slide" do %>
+            Maak een profiel aan
+          <% end %>
+        </div>
+      </div>
+    </div>
+    <div class="step-two" id="step-two-company">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6 text-div">
+            <div class="info-text">
+              <h1>Stap 2: Kies de vacatures die je aanspreken en vind een match.</h1>
+            </div>
+            <br>
+            <p>
+              Keur de vacatures goed die volledig je ding zijn en ontdek onmiddelijk of deze interesse ook wederzijds in. Een match kan ook na even wachten bekomen worden.
+            </p>
+            <%= link_to "#", class: "cta-btn-slide" do %>
+              Begin vacatures te bekijken
+            <% end %>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <%= image_tag "approved.png", class: "dont-show" %>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container step-three" id="step-three-company" >
+      <div class="row">
+        <div class="col-xs-12 col-md-6 img-div">
+          <%= image_tag "seal-the-deal-werkgever.png", class: "dont-show" %>
+        </div>
+        <div class="col-xs-12 col-md-6 text-div">
+          <div class="info-text">
+            <h1>Stap 3: Chat met je werkgever en Seal The Deal!</h1>
+          </div>
+          <br>
+          <p>
+            Maak kennis met je ‘mogelijk’ volgende
+            werknemer en kom zo te weten of dit de ideale job voor jou is.
+            Merk je dat dit wel echt iets voor jou is, duw dan op de ‘Seal The Deal’ button!
+          </p>
+          <%= link_to "#", class: "cta-btn-slide" do %>
+            Ga aan de slag!
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- map div -->
+<div class="map">
+  <div class="transparent">
+    <h1>Easily find quality jobs or hire professionals today.</h1>
+    <%= link_to "#", class: "cta-btn-slide" do %>
+      Find jobs or hire now
+    <% end %>
+  </div>
+</div>
+

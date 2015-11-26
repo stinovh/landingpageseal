@@ -1,0 +1,20 @@
+.color-footer {
+  background-color: #274160;
+}
+
+.footer {
+  height: 400px;
+  color: white;
+  font-weight: 300;
+  .row {
+    margin-top: 100px;
+  }
+  .footer-dl {
+    #ios {
+      width: 160px;
+    }
+    #android {
+      width: 160px;
+    }
+  }
+}

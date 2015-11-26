@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Landingpageseal</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <title><%= yield(:title) || "Seal" %></title>
+  <meta name="description" content="<%= (yield(:description) || "").squish %>">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <%= stylesheet_link_tag    'application', media: 'all'%>
   <%= csrf_meta_tags %>
+
 </head>
 <body>
+  <%= render 'shared/notices' %>
 
-<%= yield %>
-
+  <%= yield %>
+  <%= javascript_include_tag 'application' %>
+  <%= yield(:after_js) %>
+  <%= render 'shared/footer' %>
 </body>
 </html>

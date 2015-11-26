@@ -1,0 +1,282 @@
+.tabs-users {
+  margin: auto;
+  float: none;
+  margin-top: 6%;
+  margin-bottom: 0.15%;
+  z-index: 999999999;
+  @media (min-width: 563px) and (max-width: 1199px) {
+    margin-bottom: 0.3%;
+  }
+  @media (min-width: 490px) and (max-width: 562px) {
+    margin-bottom: 0.4%;
+  }
+  @media (min-width: 401px) and (max-width: 489px) {
+    margin-bottom: 0.5%;
+  }
+  @media (max-width: 400px) {
+    margin-bottom: 0.6%;
+  }
+}
+
+@media (max-width: 991px) {
+  .dont-show {
+    display: none;
+  }
+}
+
+
+.homepage-two {
+  background-color: #f5f5f5;
+  border-bottom: #d7d7d7 solid 1px;
+  margin-bottom: 10px;
+  padding-bottom: 11px;
+  width: 100%;
+  h1, h2 {
+    font-weight: 300;
+    padding-top: 3%;
+    margin-top: 0px;
+  }
+  h1 {
+    margin-bottom: 3%;
+  }
+  .explain-features {
+    img {
+      width: 50%;
+      margin: auto;
+      border-radius: 50%;
+    }
+    .col-xs-12 {
+      margin-top: 100px;
+    }
+  }
+  #first-one {
+    border-radius: 25px 25px 0 0;
+    padding: 14px;
+    font-size: 1.4em;
+    font-weight: 300;
+    text-decoration: none;
+  }
+  #second-one {
+    border-radius: 25px 25px 0 0;
+    padding: 14px;
+    font-size: 1.4em;
+    font-weight: 300;
+    text-decoration: none;
+  }
+}
+// classes for color switch tabs js
+  .blue-one {
+    padding-bottom: 6px;
+    color: #60aae9;
+    border-bottom: 2px solid #60aae9;
+  }
+  .grey-one {
+    color: black;
+  }
+// 1st slide werknemers
+.step-one {
+  img {
+    margin-top: 126px;
+    margin-left: 1%;
+    width: 80%;
+    max-width: none;
+  }
+  p {
+    margin-bottom: 9.5%;
+  }
+  .text-div {
+    padding-bottom: 20px;
+    margin-top: 120px;
+  }
+}
+
+.text-div {
+  padding-bottom: 20px;
+  margin-top: 120px;
+}
+
+.info-text {
+  h1 {
+    font-weight: 100;
+    font-size: 37px;
+  }
+}
+
+.steps {
+  color: #425972;
+  margin-top: 10%;
+}
+
+.cta-btn-slide {
+  background: #60aae9;
+  padding: 7px;
+  color: white;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 300;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+  &:visited {
+    color: white;
+    text-decoration: none;
+  }
+  &:active {
+    color: white;
+    text-decoration: none;
+  }
+  &:visited {
+    color: white;
+    text-decoration: none;
+  }
+}
+// 2e slide werknemers
+.step-two {
+  color: white;
+  background-color: #274160;
+  img {
+    margin-top: 79px;
+    width: 159%;
+    margin-left: 7%;
+    margin-bottom: -0.1%;
+  }
+  p {
+    margin-bottom: 9.5%;
+  }
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 170px solid #274160;
+    border-right: 762px solid transparent;
+    border-bottom: 0 solid transparent;
+  }
+  .text-div {
+    text-align: right;
+    padding-bottom: 20px;
+    margin-top: 150px;
+  }
+}
+
+// 3e slide werknemers
+
+.step-three {
+  img {
+    width: 75%;
+    margin-bottom: -1.8%;
+  }
+  p {
+    margin-bottom: 9.5%;
+  }
+  .img-div {
+    margin-top: 5.5%;
+  }
+  .text-div {
+    border-left: 1px solid;
+    margin-bottom: 125px;
+  }
+}
+//
+
+
+#step-one-company {
+  img {
+    margin-bottom: -28.4%;
+  }
+}
+
+#step-two-company {
+
+}
+
+#step-three-company {
+  img {
+    margin-bottom: -1.4%;
+  }
+}
+
+.line {
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: gray;
+    height: 2px;
+}
+
+.home-features{
+  color: #78C5F7;
+  padding-left: 44%;
+    font-size: 40px;
+    border: 4px solid #78C5F7;
+    width: 100px;
+    height: 100px;
+    padding: 27px 25px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    transition: all 0.5s;
+    margin-left: 27%;
+}
+
+.home-features:hover{
+  background-color: #78C5F7;
+  color:white;
+}
+
+body > div.homepage-two > div.row > div:nth-child(1) > i{
+  padding-left: 33px;
+}
+
+body > div.homepage-two > div.row > div:nth-child(2) > i{
+  padding-left: 31px;
+  padding-top: 13px;
+  font-size: 4.5em;
+}
+
+body > div.homepage-two > div.row > div:nth-child(3) > i{
+  padding-left: 28px;
+}
+
+body > div.homepage-two > div.row > div:nth-child(4) > i{
+  padding-left: 29px;
+}
+
+
+.feature-center{
+  text-align: center;
+
+}
+
+.no-padding{
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 23%;
+}
+
+.feature-uitleg{
+  font-size: 14px;
+
+}
+
+.map {
+  background-image: url("locationseal-map.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+  color: white;
+  h1 {
+    font-weight: 300;
+    padding-top: 120px;
+    padding-bottom: 2%;
+  }
+  .transparent {
+    height: 400px;
+    background: rgba(1, 1, 1, 0.7);
+  }
+}
