@@ -13,9 +13,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#">How it works</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">News</a></li>
+            <li><a href="#">Wat is Seal?</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div><!--/.container-fluid -->
@@ -24,15 +22,33 @@
       <div class="row">
         <div class="col-xs-12">
           <div class="first-slide-text">
-            <h1>Looking to work or hire?</h1>
+            <h1>Op zoek naar werk?</h1>
             <p>Now you can find the perfect job, or hire the best out there. Seal makes it easy.</p>
-            <%= link_to "Find Jobs", "#", class: "btn btn-default", id: "find-jobs"%> <%= link_to "Post a job", "#", class: "btn btn-default"%>
           </div>
-          <div class="download-app">
-            <span id="dl-app">Download the App:</span> <%= image_tag "ios.png", id: "ios" %> <%= image_tag "Android.png", id: "android" %>
+          <div class="newsletter col-xs-12 col-xs-offset-0 col-md-6 col-md-offset-3">
+            <div class="row">
+              <div class="col-xs-12">
+                <h2>Blijf op de hoogte van Seal!</h1>
+              </div>
+            </div>
+            <div class="row">
+              <%= simple_form_for @email do |f| %>
+              <div class="col-xs-10">
+                <%= f.input :name, label: false, placeholder: "e-mailadres" %>
+              </div>
+              <div class="col-xs-2 ">
+                <button type="submit" class="btn btn-primary">
+                  <i class="fa fa-check"></i>
+                </button>
+              </div>
+              <% end %>
+            </div>
           </div>
         </div>
       </div>
+    </div>
+    <div class="download-app">
+      <span id="dl-app">Binnenkort verkrijgbaar op</span> <%= image_tag "ios.png", id: "ios" %> <%= image_tag "Android.png", id: "android" %>
     </div>
   </div>
 </div>

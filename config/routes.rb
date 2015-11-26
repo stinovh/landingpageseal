@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  post '/', to: 'emails#create', as: 'emails'
+
   root 'pages#index'
 
   # The priority is based upon order of creation: first created -> highest priority.

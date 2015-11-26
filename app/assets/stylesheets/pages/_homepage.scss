@@ -75,10 +75,10 @@
 }
 
 .download-app {
-  margin-top: 196px;
-  @media (min-width: 431px) and (max-width: 570px) {
-    margin-top: 182px;
-  }
+  color: white;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  text-align: center;
   @media (max-width: 430px) {
     margin-top: 41px;
     #ios {
@@ -96,6 +96,16 @@
   }
   #android {
     width: 130px;
+  }
+}
+
+// subscribe box
+
+.newsletter {
+  background: rgba(1, 1, 1, 0.5);
+  margin-top: 62px;
+  h2 {
+    font-weight: 100;
   }
 }
 
