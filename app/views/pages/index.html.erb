@@ -27,8 +27,8 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href=".homepage-two">Wat is Seal?</a></li>
-            <li><a href=".tabs-users">Hoe werkt Seal?</a></li>
+            <li><%=  link_to "Wat is Seal?", :anchor => "home-two", id:"wat" %></li>
+            <li><%=  link_to "Hoe werkt Seal?", :anchor => "tabs-users" %></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -71,7 +71,7 @@
 </div>
 
 <!-- explain features -->
-<div class="homepage-two text-center">
+<div class="homepage-two text-center" id="home-two">
   <div class="container">
     <div class="row explain-features">
       <div class="col-xs-12 col-md-4">
@@ -93,7 +93,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-md-6 tabs-users">
+      <div class="col-xs-12 col-md-6 tabs-users" id="tabs-users">
         <a data-toggle="tab" href="#first" class="active blue-one" id="first-one">LOOKING FOR A JOB</a>
         <a data-toggle="tab" href="#second" class="grey-one" id="second-one">LOOKING TO HIRE</a>
       </div>
