@@ -29,6 +29,9 @@
         margin-right: 0;
       }
     }
+    p {
+      font-weight: 300;
+    }
   }
 }
 
@@ -106,6 +109,20 @@
   margin-top: 62px;
   h2 {
     font-weight: 100;
+  }
+  input#email_name {
+    margin-left: 14px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+  }
+  #submit-mail {
+    margin-top: 10px;
+  }
+  p {
+    font-weight: 100;
+    font-size: 14px;
+    padding-bottom: 3px;
+    color: rgba(221, 221, 221, 0.87);
   }
 }
 
