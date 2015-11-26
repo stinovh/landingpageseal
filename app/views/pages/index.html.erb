@@ -11,9 +11,25 @@
           </button>
           <a href="/" class="pull-left"><%= image_tag "header-logo.png", id: "seal-logo" %></a>
         </div>
+        <div class="nav navbar-nav navbar-right">
+          <div class="col-xs-1">
+            <%= link_to "https://www.facebook.com/Seal.jobs/" do %><i class="fa fa-facebook-square"></i><% end %>
+          </div>
+          <div class="col-xs-1">
+            <%= link_to "https://www.instagram.com/seal_jobs/" do %><i class="fa fa-instagram"></i><% end %>
+          </div>
+          <div class="col-xs-1">
+            <%= link_to "https://twitter.com/Seal_jobs" do %><i class="fa fa-twitter-square"></i><% end %>
+          </div>
+          <div class="col-xs-1">
+            <%= link_to "https://www.linkedin.com/company/seal-jobs" do %><i class="fa fa-linkedin-square"></i><% end %>
+          </div>
+        </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="#">Wat is Seal?</a></li>
+            <li><a href="#">Hoe werkt Seal?</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div><!--/.container-fluid -->
@@ -60,17 +76,20 @@
     <div class="row explain-features">
       <div class="col-xs-12 col-md-4">
         <div class="circle-img">
-          <%= image_tag "Match-Icon.eps" %>
+          <%= image_tag "match-icon.png" %>
           <h2>Matching</h2>
+          <p>Need a candidate fast? Get a perfect match in less than a day.</p>
         </div>
       </div>
       <div class="col-xs-12 col-md-4">
-        <%= image_tag "headhunting-homepage1.png" %>
+        <%= image_tag "headhunt-icon.png" %>
         <h2>Headhunting</h2>
+        <p>Not sure about one? Search our huge community for more options.</p>
       </div>
       <div class="col-xs-12 col-md-4">
-        <%= image_tag "hotrightnow.png" %>
+        <%= image_tag "hot-now-icon.png" %>
         <h2>Hot Right Now</h2>
+        <p>Looking for the best of the best? Browse the hot list.</p>
       </div>
     </div>
     <div class="row">

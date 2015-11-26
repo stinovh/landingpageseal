@@ -1,0 +1,9 @@
+$('#first-one').click(function(){
+  console.log('test')
+  $(this).removeClass('grey-one').addClass('blue-one')
+  $('#second-one').removeClass('blue-one').addClass('grey-one')
+});
+$('#second-one').click(function(){
+  $(this).removeClass('grey-one').addClass('blue-one')
+  $('#first-one').removeClass('blue-one').addClass('grey-one')
+});
