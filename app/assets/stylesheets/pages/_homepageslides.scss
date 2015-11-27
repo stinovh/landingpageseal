@@ -22,7 +22,31 @@
   .dont-show {
     display: none;
   }
+  .step-one, .step-two {
+    .text-div{
+      padding-bottom: 50px !important;
+    }
+  }
+  .step-three {
+    .text-div {
+      padding-bottom: 30px !important;
+    }
+    .img-div {
+      margin-top: 0 !important;
+    }
+  }
+  .step-one, .step-two, .step-three{
+    .text-div{
+      margin-top: 5.5% !important;
+      margin-bottom: 0 !important;
+      border: none !important;
+      text-align: left !important;
+      padding-left: 25px !important;
+    }
+  }
 }
+
+
 
 
 .homepage-two {
@@ -157,6 +181,7 @@
 .step-two {
   color: white;
   background-color: #274160;
+  overflow: hidden;
   img {
     margin-top: 79px;
     width: 159%;
@@ -166,16 +191,18 @@
   p {
     margin-bottom: 9.5%;
   }
-  &:after {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-top: 170px solid #274160;
-    border-right: 762px solid transparent;
-    border-bottom: 0 solid transparent;
+  @media (min-width: 992px) {
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      width: 0;
+      height: 0;
+      border-top: 170px solid #274160;
+      border-right: 762px solid transparent;
+      border-bottom: 0 solid transparent;
+    }
   }
   .text-div {
     text-align: right;

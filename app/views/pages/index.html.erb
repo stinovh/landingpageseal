@@ -28,7 +28,7 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><%=  link_to "Wat is Seal?", :anchor => "home-two", id:"wat" %></li>
-            <li><%=  link_to "Hoe werkt Seal?", :anchor => "tabs-users" %></li>
+            <li><%=  link_to "Hoe werkt Seal?", :anchor => "go-tab" %></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div><!--/.container-fluid -->
@@ -91,7 +91,7 @@
         <p>Looking for the best of the best? Browse the hot list.</p>
       </div>
     </div>
-    <div class="row">
+    <div class="row" id="go-tab">
       <div class="col-xs-12 col-md-6 tabs-users" id="tabs-users">
         <a data-toggle="tab" href="#first" class="active blue-one" id="first-one">SOLLICITEER</a>
         <a data-toggle="tab" href="#second" class="grey-one" id="second-one">REKRUTEER</a>
