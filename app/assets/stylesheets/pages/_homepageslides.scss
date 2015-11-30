@@ -120,6 +120,7 @@
   }
 // 1st slide werknemers
 .step-one {
+  color: rgba(51, 51, 51, 0.86);
   img {
     margin-top: 126px;
     margin-left: 1%;
@@ -179,7 +180,7 @@
 }
 // 2e slide werknemers
 .step-two {
-  color: white;
+  color: rgba(255, 255, 255, 0.84);
   background-color: #274160;
   overflow: hidden;
   img {
@@ -214,6 +215,7 @@
 // 3e slide werknemers
 
 .step-three {
+  color: rgba(51, 51, 51, 0.86);
   img {
     width: 71%;
     margin-top: 172px;
@@ -226,7 +228,7 @@
     margin-top: 5.5%;
   }
   .text-div {
-    border-left: 1px solid;
+    border-left: 1px solid rgba(128, 128, 128, 0.33);
     margin-bottom: 125px;
     margin-top: 200px;
     padding-left: 73px;
