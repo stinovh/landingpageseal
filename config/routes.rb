@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
+
+  #emailsubscriptions
   post '/', to: 'emails#create', as: 'emails'
+
+  #jobs
+
+  get '/jobs', to: 'pages#jobs', as: 'jobs'
 
   root 'pages#index'
 

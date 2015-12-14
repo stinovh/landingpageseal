@@ -1,3 +1,10 @@
+.navbar-right {
+  .fa {
+    color: white;
+    font-size: 30px;
+  }
+}
+
 #homepage-nav {
   margin-bottom: 0;
   border: none;
@@ -12,8 +19,22 @@
 }
 
 #main-nav {
+  background-color: #274160;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  .navbar-nav li a {
+    color: white;
+  }
   #seal-logo {
     max-width: 170px;
+  }
+  #post-btn {
+    position: absolute;
+    width: 135px;
+    top: -24px;
+    left: 68px;
+    z-index: 2;
   }
 }
 
@@ -23,9 +44,43 @@
   }
 }
 
-.navbar-right {
-  .fa {
-    color: white;
-    font-size: 30px;
+.blue-menu {
+  background-color: #274160;
+  border-radius: 5px;
+  width: 92px;
+  min-width: 0;
+}
+
+#user-main-link {
+  padding-left: 28px;
+  &:hover {
+    background-color: rgba(1,1,1,0.15);
+  }
+}
+
+#company-main-link {
+  padding-left: 13px;
+  &:hover {
+    background-color: rgba(1,1,1,0.15);
+  }
+}
+
+#post-btn {
+    position: absolute;
+    width: 135px;
+    top: -33px;
+    left: 68px;
+    z-index: 2;
+}
+
+@media (max-width: 767px) {
+  #post-btn {
+    top: 0 !important;
+    left: 0px !important;
+    position: inherit;
+  &:hover {
+    border-bottom: none !important;
+    transform: none !important;
+    }
   }
 }
