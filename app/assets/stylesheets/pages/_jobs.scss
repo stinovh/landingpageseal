@@ -1,0 +1,78 @@
+.jobs-bg {
+  background-image: image-url("example_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jobs {
+  height: 450px;
+  .slogan-text {
+    margin-top: 170px;
+    color: white;
+    @media (max-width: 396px){
+      margin-top: 90px;
+    }
+    h1 {
+      font-weight: 300;
+      font-size: 50px;
+    }
+  }
+}
+
+
+
+.grey-bg {
+  background-color: #f5f5f5;
+}
+
+.seal-values {
+  h2, p {
+    font-weight: 300;
+  }
+  p {
+    margin-bottom: 80px;
+  }
+  .value-icon {
+    margin-top: 80px;
+    i {
+      font-size: 75px;
+      color: #74ADD7;
+    }
+  }
+}
+
+.benefits {
+  padding-bottom: 80px;
+  h1 {
+    margin-top: 80px;
+    font-weight: 300;
+    text-align: center;
+  }
+  h2, p {
+    font-weight: 300;
+  }
+  .icon {
+    font-size: 46px;
+    margin-top: 65px;
+    color: #74add7;
+  }
+  .benefit-text {
+    padding-left: 30px;
+  }
+  @media (max-width: 767px) {
+    .icon {
+      display: none;
+    }
+    .benefit-text {
+      padding-left: 15px;
+    }
+  }
+}
+
+.offer {
+  h1 {
+    font-weight: 300;
+    text-align: center;
+    margin-top: 80px;
+  }
+}

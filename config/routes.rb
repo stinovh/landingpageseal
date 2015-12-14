@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   #jobs
 
-  get '/jobs', to: 'pages#jobs', as: 'jobs'
+  get '/mobile-developer', to: 'pages#jobs', as: 'jobs'
 
   root 'pages#index'
 
