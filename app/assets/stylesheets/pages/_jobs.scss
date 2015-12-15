@@ -1,5 +1,5 @@
 .jobs-bg {
-  background-image: image-url("example_bg.jpg");
+  background-image: image-url("bg-dev1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -114,6 +114,9 @@
     margin-top: 40px;
   }
   p {
+    font-weight: 300;
+  }
+  button {
     font-weight: 300;
   }
 }
