@@ -4,7 +4,6 @@ Rails.application.routes.draw do
   post '/', to: 'emails#create', as: 'emails'
 
   #jobs
-
   get '/mobile-developer', to: 'pages#jobs', as: 'jobs'
 
   root 'pages#index'

@@ -39,6 +39,7 @@ gem 'figaro'
 gem 'devise'
 gem 'omniauth-facebook'
 gem 'cocoon'
+gem 'mail_form'
 
 gem 'rails_12factor', group: :production
 gem 'puma',           group: :production
