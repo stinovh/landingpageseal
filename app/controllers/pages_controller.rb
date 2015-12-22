@@ -4,6 +4,9 @@ class PagesController < ApplicationController
     @email = Email.new
   end
 
-  def jobs
+  def mobilejob
+  end
+
+  def railsjob
   end
 end
