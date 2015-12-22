@@ -29,6 +29,7 @@
           <ul class="nav navbar-nav">
             <li><%=  link_to "Wat is Seal?", :anchor => "home-two", id:"wat" %></li>
             <li><%=  link_to "Hoe werkt Seal?", :anchor => "go-tab" %></li>
+            <li><%=  link_to "Jobs", :anchor => "job-collection" %></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div><!--/.container-fluid -->
@@ -241,5 +242,28 @@
     <%= link_to "#", class: "cta-btn-slide" do %>
       Blijf op de hoogte
     <% end %>
+  </div>
+</div>
+
+<div class="container job-collection" id="job-collection">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1>Wij zoeken:</h1>
+      <%= link_to mobilejob_path do %>
+        <div class="col-xs-12 col-sm-6 mobile-img-wrap">
+          <%= image_tag "mobile-developer.png", class: "job-img mobile-img" %>
+          <%= image_tag "mobile-developer-hover.png", class: "job-img show-hover" %>
+          <h2>Mobile Developer</h2>
+        </div>
+      <% end %>
+      <hr>
+      <%= link_to railsjob_path do %>
+        <div class="col-xs-12 col-sm-6 rails-img-wrap">
+          <%= image_tag "rails-developer.png", class: "job-img rails-img" %>
+          <%= image_tag "rails-developer-hover.png", class: "job-img show-hover-rails" %>
+          <h2>Rails Developer</h2>
+        </div>
+      <% end %>
+    </div>
   </div>
 </div>
