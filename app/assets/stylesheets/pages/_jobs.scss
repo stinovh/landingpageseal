@@ -125,11 +125,56 @@
   h1 {
     font-weight: 300;
     text-align: center;
+    margin-top: 60px;
+    margin-bottom: 70px;
   }
   .job-img {
-    width: 80px;
+    width: 30%;
+    display: block;
+    margin: auto;
   }
-  .mobile-job, .rails-job {
-    border: #d7d7d7 solid 1px;
+  .show-hover {
+    display: none;
+  }
+  .show-hover-rails {
+    display: none;
+  }
+  h2 {
+    font-weight: 300;
+    text-align: center;
+    color: #5FA8E7;
+    margin-bottom: 80px;
+  }
+  hr {
+    width: 1px;
+    height: 208px;
+    background-color: rgba(0, 0, 0, 0.24);
+    position: absolute;
+    top: 145px;
+    left: 50%;
+    z-index: 10;
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
+  .mobile-img-wrap {
+    &:hover {
+      .mobile-img {
+        display: none;
+      }
+      .show-hover {
+        display: block;
+      }
+    }
+  }
+  .rails-img-wrap {
+    &:hover {
+      .rails-img {
+        display: none;
+      }
+      .show-hover-rails {
+        display: block;
+      }
+    }
   }
 }
